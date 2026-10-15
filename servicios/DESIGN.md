@@ -1,7 +1,7 @@
 ---
 version: alpha
 name: CONTPAQi — Servicios
-description: Design System CONTPAQi (Librería v1.1.0), línea de producto Servicios · DS Spec v1.0.0 (2026-10-15)
+description: Design System CONTPAQi (Librería v1.1.0), línea de producto Servicios · DS Spec v1.0.1 (2026-10-15)
 colors:
   primary: "#FF5300"
   primary-hover: "#AF1300"
@@ -812,7 +812,7 @@ Barra superior de todos los aplicativos de la línea Servicios. Es obligatoria: 
 
 ```html
 <header class="app-header">
-  <div class="ah-logo"><img src="https://compac-ds.github.io/ds-spec/servicios/assets/logos/respaldos.svg" alt="CONTPAQi Respaldos"></div>
+  <div class="ah-logo ah-logo-pending" role="img" aria-label="Logo Respaldos pendiente">Logo Respaldos</div>
   <div class="ah-content">
     <div class="ah-group ah-version">
       <div class="ah-version-box">
@@ -876,6 +876,7 @@ Barra superior de todos los aplicativos de la línea Servicios. Es obligatoria: 
 .app-header button { font: inherit; letter-spacing: inherit; border: 0; background: none; padding: 0; cursor: pointer; }
 .ah-logo { width: 176px; height: 48px; flex-shrink: 0; }
 .ah-logo img { width: 100%; height: 100%; object-fit: contain; object-position: left center; }
+.ah-logo-pending { display: grid; place-items: center; border: 1px dashed #94A3B8; border-radius: 8px; color: var(--ah-on-surface-secondary); font-size: 12px; font-weight: 600; line-height: 1; }
 .ah-content { display: flex; align-items: center; }
 .ah-group { display: flex; align-items: center; gap: 24px; height: 48px; }
 .ah-version, .ah-actions { padding-right: 24px; }
@@ -1158,4 +1159,4 @@ render();
 - **Don't** introducir tipografías distintas a Manrope.
 - **Don't** usar sombras para separar contenido que ya está separado por superficie o borde.
 
-<!-- FIN DESIGN.md · servicios · v1.0.0 -->
+<!-- FIN DESIGN.md · servicios · v1.0.1 -->

@@ -2,7 +2,7 @@
 
 Reglas comunes para construir pantallas, dashboards y prototipos de los aplicativos CONTPAQi con el Design System. Aplican a las cuatro líneas de producto. Lo específico de cada línea (colores, componentes, logos) vive en su DESIGN.md.
 
-Versión de estas instrucciones: 1.0.0 · 2026-10-15
+Versión de estas instrucciones: 1.0.1 · 2026-10-15
 
 ## 1. Fuente de verdad
 
@@ -41,7 +41,7 @@ App Header (96 px, ancho completo)
 ## 4. Logos
 
 - Toma la URL del logo del manifiesto (`index.json`) o de la tabla de logos del DESIGN.md y úsala directamente en `<img src="...">` dentro del contenedor de 176×48 px.
-- Si el logo del aplicativo figura como pendiente (`null` en el manifiesto), deja el contenedor de 176×48 px con borde punteado y la etiqueta "Logo <Aplicativo>", y avísalo.
+- Si el logo del aplicativo figura como pendiente (`null` en el manifiesto), sustituye el `<img>` por `<div class="ah-logo ah-logo-pending" role="img" aria-label="Logo <Aplicativo> pendiente">Logo <Aplicativo></div>` (contenedor de 176×48 px con borde punteado, definido en el CSS de referencia) y avísalo.
 - Nunca dibujes, recrees con texto ni sustituyas un logo por el de otro aplicativo.
 
 ## 5. Contenido
@@ -117,4 +117,4 @@ HTML autocontenido: CSS en `<style>`, JS mínimo en `<script>`, Manrope desde Go
 - [ ] Botones de solo ícono con `aria-label`; focus visible.
 - [ ] Respuesta con la versión cargada, los supuestos tomados, lo que no se pudo mapear y los warnings de contraste que aplican.
 
-<!-- FIN instrucciones · v1.0.0 -->
+<!-- FIN instrucciones · v1.0.1 -->
