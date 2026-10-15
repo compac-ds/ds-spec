@@ -1,7 +1,7 @@
 ---
 version: alpha
 name: CONTPAQi — Personas
-description: Design System CONTPAQi (Librería v1.1.0), línea de producto Personas
+description: Design System CONTPAQi (Librería v1.1.0), línea de producto Personas · DS Spec v1.0.0 (2026-10-15)
 colors:
   primary: "#8300F8"
   primary-hover: "#5800B7"
@@ -803,18 +803,18 @@ Barra superior de todos los aplicativos de la línea Personas. Es obligatoria: t
 
 **Logo.** Usar el archivo del aplicativo solicitado; si no se especifica aplicativo, usar Nóminas. Nunca redibujar el logo, recrearlo con texto o sustituirlo por otro. Si el archivo no está disponible, dejar el contenedor de 176×48px vacío e indicarlo.
 
-| Aplicativo | Archivo |
+| Aplicativo | Logo |
 |---|---|
-| Nóminas | `assets/logos/personas/nominas.svg` |
-| Colabora | `assets/logos/personas/colabora.svg` |
-| Evalúa | `assets/logos/personas/evalua.svg` |
-| Kursa | `assets/logos/personas/kursa.svg` |
+| Nóminas | https://compac-ds.github.io/ds-spec/personas/assets/logos/nominas.svg |
+| Colabora | https://compac-ds.github.io/ds-spec/personas/assets/logos/colabora.svg |
+| Evalúa | Pendiente: dejar el contenedor de 176×48px vacío y etiquetado |
+| Kursa | Pendiente: dejar el contenedor de 176×48px vacío y etiquetado |
 
 **Implementación de referencia.** Usar este bloque literal. Solo cambian el archivo del logo, los textos (versión, etapa, empresa, RFC, iniciales), qué íconos de acción aparecen y las secciones visibles. Requiere Manrope desde Google Fonts (pesos 400, 600 y 700).
 
 ```html
 <header class="app-header">
-  <div class="ah-logo"><img src="assets/logos/personas/nominas.svg" alt="CONTPAQi Nóminas"></div>
+  <div class="ah-logo"><img src="https://compac-ds.github.io/ds-spec/personas/assets/logos/nominas.svg" alt="CONTPAQi Nóminas"></div>
   <div class="ah-content">
     <div class="ah-group ah-version">
       <div class="ah-version-box">
@@ -1160,3 +1160,4 @@ render();
 - **Don't** introducir tipografías distintas a Manrope.
 - **Don't** usar sombras para separar contenido que ya está separado por superficie o borde.
 
+<!-- FIN DESIGN.md · personas · v1.0.0 -->

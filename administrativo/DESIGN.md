@@ -1,7 +1,7 @@
 ---
 version: alpha
 name: CONTPAQi — Administrativo
-description: Design System CONTPAQi (Librería v1.1.0), línea de producto Administrativo
+description: Design System CONTPAQi (Librería v1.1.0), línea de producto Administrativo · DS Spec v1.0.0 (2026-10-15)
 colors:
   primary: "#037255"
   primary-hover: "#005038"
@@ -803,22 +803,22 @@ Barra superior de todos los aplicativos de la línea Administrativo. Es obligato
 
 **Logo.** Usar el archivo del aplicativo solicitado; si no se especifica aplicativo, usar Comercial Pro. Nunca redibujar el logo, recrearlo con texto o sustituirlo por otro. Si el archivo no está disponible, dejar el contenedor de 176×48px vacío e indicarlo.
 
-| Aplicativo | Archivo |
+| Aplicativo | Logo |
 |---|---|
-| Comercial Start | `assets/logos/administrativo/comercial_start.svg` |
-| Comercial Pro | `assets/logos/administrativo/comercial_pro.svg` |
-| Comercial Premium | `assets/logos/administrativo/comercial_premium.svg` |
-| Factura Electrónica | `assets/logos/administrativo/factura_electronica.svg` |
-| CFDI Facturación | `assets/logos/administrativo/cfdi_facturacion.svg` |
-| Mi Factura | `assets/logos/administrativo/mi_factura.svg` |
-| Timbra | `assets/logos/administrativo/timbra.svg` |
-| Vende | `assets/logos/administrativo/vende.svg` |
+| Comercial Start | Pendiente: dejar el contenedor de 176×48px vacío y etiquetado |
+| Comercial Pro | Pendiente: dejar el contenedor de 176×48px vacío y etiquetado |
+| Comercial Premium | https://compac-ds.github.io/ds-spec/administrativo/assets/logos/comercial_premium.svg |
+| Factura Electrónica | Pendiente: dejar el contenedor de 176×48px vacío y etiquetado |
+| CFDI Facturación | Pendiente: dejar el contenedor de 176×48px vacío y etiquetado |
+| Mi Factura | Pendiente: dejar el contenedor de 176×48px vacío y etiquetado |
+| Timbra | Pendiente: dejar el contenedor de 176×48px vacío y etiquetado |
+| Vende | https://compac-ds.github.io/ds-spec/administrativo/assets/logos/vende.svg |
 
 **Implementación de referencia.** Usar este bloque literal. Solo cambian el archivo del logo, los textos (versión, etapa, empresa, RFC, iniciales), qué íconos de acción aparecen y las secciones visibles. Requiere Manrope desde Google Fonts (pesos 400, 600 y 700).
 
 ```html
 <header class="app-header">
-  <div class="ah-logo"><img src="assets/logos/administrativo/comercial_pro.svg" alt="CONTPAQi Comercial Pro"></div>
+  <div class="ah-logo"><img src="https://compac-ds.github.io/ds-spec/administrativo/assets/logos/comercial_pro.svg" alt="CONTPAQi Comercial Pro"></div>
   <div class="ah-content">
     <div class="ah-group ah-version">
       <div class="ah-version-box">
@@ -1164,3 +1164,4 @@ render();
 - **Don't** introducir tipografías distintas a Manrope.
 - **Don't** usar sombras para separar contenido que ya está separado por superficie o borde.
 
+<!-- FIN DESIGN.md · administrativo · v1.0.0 -->

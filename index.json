@@ -1,0 +1,126 @@
+{
+  "name": "CONTPAQi DS Spec",
+  "version": "1.0.0",
+  "updated": "2026-10-15",
+  "base": "https://compac-ds.github.io/ds-spec/",
+  "instructions": "https://compac-ds.github.io/ds-spec/instrucciones/instrucciones.md",
+  "instructionsSentinel": "<!-- FIN instrucciones · v1.0.0 -->",
+  "lines": {
+    "contable": {
+      "name": "Contable",
+      "design": "https://compac-ds.github.io/ds-spec/contable/DESIGN.md",
+      "sentinel": "<!-- FIN DESIGN.md · contable · v1.0.0 -->",
+      "defaultApp": "contabilidad",
+      "apps": {
+        "contabilidad": {
+          "name": "Contabilidad",
+          "logo": "https://compac-ds.github.io/ds-spec/contable/assets/logos/contabilidad.svg"
+        },
+        "bancos": {
+          "name": "Bancos",
+          "logo": null
+        },
+        "tesoreria": {
+          "name": "Tesorería",
+          "logo": null
+        },
+        "anticipa": {
+          "name": "Anticipa",
+          "logo": null
+        },
+        "optimiza": {
+          "name": "Optimiza",
+          "logo": null
+        },
+        "xml_en_linea": {
+          "name": "XML en Línea",
+          "logo": null
+        },
+        "conecta_tu_banco": {
+          "name": "Conecta tu Banco",
+          "logo": null
+        }
+      }
+    },
+    "administrativo": {
+      "name": "Administrativo",
+      "design": "https://compac-ds.github.io/ds-spec/administrativo/DESIGN.md",
+      "sentinel": "<!-- FIN DESIGN.md · administrativo · v1.0.0 -->",
+      "defaultApp": "comercial_pro",
+      "apps": {
+        "comercial_start": {
+          "name": "Comercial Start",
+          "logo": null
+        },
+        "comercial_pro": {
+          "name": "Comercial Pro",
+          "logo": null
+        },
+        "comercial_premium": {
+          "name": "Comercial Premium",
+          "logo": "https://compac-ds.github.io/ds-spec/administrativo/assets/logos/comercial_premium.svg"
+        },
+        "factura_electronica": {
+          "name": "Factura Electrónica",
+          "logo": null
+        },
+        "cfdi_facturacion": {
+          "name": "CFDI Facturación",
+          "logo": null
+        },
+        "mi_factura": {
+          "name": "Mi Factura",
+          "logo": null
+        },
+        "timbra": {
+          "name": "Timbra",
+          "logo": null
+        },
+        "vende": {
+          "name": "Vende",
+          "logo": "https://compac-ds.github.io/ds-spec/administrativo/assets/logos/vende.svg"
+        }
+      }
+    },
+    "personas": {
+      "name": "Personas",
+      "design": "https://compac-ds.github.io/ds-spec/personas/DESIGN.md",
+      "sentinel": "<!-- FIN DESIGN.md · personas · v1.0.0 -->",
+      "defaultApp": "nominas",
+      "apps": {
+        "nominas": {
+          "name": "Nóminas",
+          "logo": "https://compac-ds.github.io/ds-spec/personas/assets/logos/nominas.svg"
+        },
+        "colabora": {
+          "name": "Colabora",
+          "logo": "https://compac-ds.github.io/ds-spec/personas/assets/logos/colabora.svg"
+        },
+        "evalua": {
+          "name": "Evalúa",
+          "logo": null
+        },
+        "kursa": {
+          "name": "Kursa",
+          "logo": null
+        }
+      }
+    },
+    "servicios": {
+      "name": "Servicios",
+      "design": "https://compac-ds.github.io/ds-spec/servicios/DESIGN.md",
+      "sentinel": "<!-- FIN DESIGN.md · servicios · v1.0.0 -->",
+      "defaultApp": "respaldos",
+      "apps": {
+        "respaldos": {
+          "name": "Respaldos",
+          "logo": null
+        },
+        "vdi": {
+          "name": "VDI",
+          "logo": "https://compac-ds.github.io/ds-spec/servicios/assets/logos/escritorio_virtual.svg"
+        }
+      }
+    }
+  }
+}

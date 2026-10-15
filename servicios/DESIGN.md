@@ -1,7 +1,7 @@
 ---
 version: alpha
 name: CONTPAQi — Servicios
-description: Design System CONTPAQi (Librería v1.1.0), línea de producto Servicios
+description: Design System CONTPAQi (Librería v1.1.0), línea de producto Servicios · DS Spec v1.0.0 (2026-10-15)
 colors:
   primary: "#FF5300"
   primary-hover: "#AF1300"
@@ -803,16 +803,16 @@ Barra superior de todos los aplicativos de la línea Servicios. Es obligatoria: 
 
 **Logo.** Usar el archivo del aplicativo solicitado; si no se especifica aplicativo, usar Respaldos. Nunca redibujar el logo, recrearlo con texto o sustituirlo por otro. Si el archivo no está disponible, dejar el contenedor de 176×48px vacío e indicarlo.
 
-| Aplicativo | Archivo |
+| Aplicativo | Logo |
 |---|---|
-| Respaldos | `assets/logos/servicios/respaldos.svg` |
-| VDI | `assets/logos/servicios/vdi.svg` |
+| Respaldos | Pendiente: dejar el contenedor de 176×48px vacío y etiquetado |
+| VDI | https://compac-ds.github.io/ds-spec/servicios/assets/logos/escritorio_virtual.svg |
 
 **Implementación de referencia.** Usar este bloque literal. Solo cambian el archivo del logo, los textos (versión, etapa, empresa, RFC, iniciales), qué íconos de acción aparecen y las secciones visibles. Requiere Manrope desde Google Fonts (pesos 400, 600 y 700).
 
 ```html
 <header class="app-header">
-  <div class="ah-logo"><img src="assets/logos/servicios/respaldos.svg" alt="CONTPAQi Respaldos"></div>
+  <div class="ah-logo"><img src="https://compac-ds.github.io/ds-spec/servicios/assets/logos/respaldos.svg" alt="CONTPAQi Respaldos"></div>
   <div class="ah-content">
     <div class="ah-group ah-version">
       <div class="ah-version-box">
@@ -1158,3 +1158,4 @@ render();
 - **Don't** introducir tipografías distintas a Manrope.
 - **Don't** usar sombras para separar contenido que ya está separado por superficie o borde.
 
+<!-- FIN DESIGN.md · servicios · v1.0.0 -->
