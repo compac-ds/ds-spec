@@ -1,7 +1,7 @@
 {
   "name": "CONTPAQi DS Spec",
   "version": "1.0.1",
-  "updated": "2026-10-15",
+  "updated": "2026-10-20",
   "base": "https://compac-ds.github.io/ds-spec/",
   "instructions": "https://compac-ds.github.io/ds-spec/instrucciones/instrucciones.md",
   "instructionsSentinel": "<!-- FIN instrucciones · v1.0.1 -->",
