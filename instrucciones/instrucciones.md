@@ -2,7 +2,7 @@
 
 Reglas comunes para construir pantallas, dashboards y prototipos de los aplicativos CONTPAQi con el Design System. Aplican a las cuatro líneas de producto. Lo específico de cada línea (colores, componentes, logos) vive en su DESIGN.md.
 
-Versión de estas instrucciones: 1.0.1 · 2026-10-15
+Versión de estas instrucciones: 1.0.1 · 2026-10-20
 
 ## 1. Fuente de verdad
 
@@ -38,10 +38,12 @@ App Header (96 px, ancho completo)
 
 "Copia literal" significa conservar el HTML, el CSS y el JS de referencia sin reescribirlos, reordenarlos ni simplificarlos. Si el entorno exige otro framework (por ejemplo React), porta la referencia sin cambiar medidas, colores, estructura ni comportamiento.
 
+Si el destino es Figma, la "copia literal" aplica a medidas, estructura y comportamiento, no al código: App Header y Sidebar se construyen con los componentes de la librería. Si un componente, variable o estilo no existe en la librería, repórtalo; no lo dibujes con valores literales.
+
 ## 4. Logos
 
 - Toma la URL del logo del manifiesto (`index.json`) o de la tabla de logos del DESIGN.md y úsala directamente en `<img src="...">` dentro del contenedor de 176×48 px.
-- Si el logo del aplicativo figura como pendiente (`null` en el manifiesto), sustituye el `<img>` por `<div class="ah-logo ah-logo-pending" role="img" aria-label="Logo <Aplicativo> pendiente">Logo <Aplicativo></div>` (contenedor de 176×48 px con borde punteado, definido en el CSS de referencia) y avísalo.
+- Si el logo del aplicativo figura como pendiente (`null` en el manifiesto), deja el contenedor de 176×48 px con borde punteado y la etiqueta "Logo <Aplicativo>", y avísalo.
 - Nunca dibujes, recrees con texto ni sustituyas un logo por el de otro aplicativo.
 
 ## 5. Contenido
@@ -92,6 +94,7 @@ App Header (96 px, ancho completo)
 | ChatGPT | Canvas con un solo archivo HTML autocontenido |
 | Genspark | Página o archivo HTML autocontenido |
 | Figma Make | Componentes React; App Header y Sidebar como componentes propios portados de la referencia |
+| Figma (vía MCP) | Construcción nativa en el archivo: componentes, variables y estilos de la librería del DS; sin HTML ni valores literales |
 | Otra | Un solo archivo HTML autocontenido |
 
 HTML autocontenido: CSS en `<style>`, JS mínimo en `<script>`, Manrope desde Google Fonts e íconos Phosphor como SVG inline o desde `@phosphor-icons/web`.
