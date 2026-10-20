@@ -1,4 +1,4 @@
-# Conpac DS Spec
+# Compac DS Spec
 
 Especificación del Design System para generar pantallas y prototipos con herramientas de IA.
 
