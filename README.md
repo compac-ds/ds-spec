@@ -1,6 +1,6 @@
-# CONTPAQi DS Spec
+# Conpac DS Spec
 
-Especificación del Design System CONTPAQi para generar pantallas y prototipos con herramientas de IA. Publicado en https://compac-ds.github.io/ds-spec/
+Especificación del Design System para generar pantallas y prototipos con herramientas de IA.
 
 ## Contenido
 
