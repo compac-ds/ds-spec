@@ -1,7 +1,7 @@
 ---
 version: alpha
 name: CONTPAQi — Servicios
-description: Design System CONTPAQi (Librería v1.1.0), línea de producto Servicios · DS Spec v1.0.1 (2026-10-15)
+description: Design System CONTPAQi (Librería v1.1.0), línea de producto Servicios · DS Spec v1.0.2 (2026-10-21)
 colors:
   primary: "#FF5300"
   primary-hover: "#AF1300"
@@ -1152,7 +1152,6 @@ render();
 
 - **Do** usar una sola acción primary por vista.
 - **Do** aplicar color siempre a través de los tokens semánticos; los valores primitivos no se usan directamente en interfaces.
-- **Do** mantener un contraste mínimo WCAG AA: 4.5:1 para texto normal y 3:1 para texto grande.
 - **Do** mostrar el foco con {colors.focus-ring} en todos los elementos interactivos.
 - **Don't** usar el color secondary en botones ni links; su uso se limita a tabs segmentados y superficies de acento.
 - **Don't** mezclar colores de marca de otras líneas de producto dentro de una misma interfaz.

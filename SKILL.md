@@ -1,6 +1,6 @@
 ---
 name: contpaqi-screens
-version: "1.0.1"
+version: "1.0.2"
 description: Genera pantallas, dashboards y prototipos de los aplicativos CONTPAQi apegados al Design System, cargando en vivo el DESIGN.md y las instrucciones publicadas en https://compac-ds.github.io/ds-spec/. Úsalo siempre que el usuario pida una pantalla, vista, dashboard, mockup, prototipo o rediseño de cualquier aplicativo CONTPAQi (Contabilidad, Bancos, Comercial, Factura Electrónica, Nóminas, Colabora, Evalúa, Kursa, Respaldos, VDI, etc.), aunque no mencione el Design System, y también cuando comparta una captura de una pantalla actual para modernizarla.
 inclusion: auto
 ---

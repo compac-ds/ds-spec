@@ -1,4 +1,4 @@
-# Changelog · 2026-10-19
+# Changelog · 2026-10-21
 
 ## 🆕 Agregado
 

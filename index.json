@@ -1,15 +1,15 @@
 {
   "name": "CONTPAQi DS Spec",
-  "version": "1.0.1",
-  "updated": "2026-10-20",
+  "version": "1.0.2",
+  "updated": "2026-10-21",
   "base": "https://compac-ds.github.io/ds-spec/",
   "instructions": "https://compac-ds.github.io/ds-spec/instrucciones/instrucciones.md",
-  "instructionsSentinel": "<!-- FIN instrucciones · v1.0.1 -->",
+  "instructionsSentinel": "<!-- FIN instrucciones · v1.0.2 -->",
   "lines": {
     "contable": {
       "name": "Contable",
       "design": "https://compac-ds.github.io/ds-spec/contable/DESIGN.md",
-      "sentinel": "<!-- FIN DESIGN.md · contable · v1.0.1 -->",
+      "sentinel": "<!-- FIN DESIGN.md · contable · v1.0.2 -->",
       "defaultApp": "contabilidad",
       "apps": {
         "contabilidad": {
@@ -45,7 +45,7 @@
     "administrativo": {
       "name": "Administrativo",
       "design": "https://compac-ds.github.io/ds-spec/administrativo/DESIGN.md",
-      "sentinel": "<!-- FIN DESIGN.md · administrativo · v1.0.1 -->",
+      "sentinel": "<!-- FIN DESIGN.md · administrativo · v1.0.2 -->",
       "defaultApp": "comercial_pro",
       "apps": {
         "comercial_start": {
@@ -85,7 +85,7 @@
     "personas": {
       "name": "Personas",
       "design": "https://compac-ds.github.io/ds-spec/personas/DESIGN.md",
-      "sentinel": "<!-- FIN DESIGN.md · personas · v1.0.1 -->",
+      "sentinel": "<!-- FIN DESIGN.md · personas · v1.0.2 -->",
       "defaultApp": "nominas",
       "apps": {
         "nominas": {
@@ -109,7 +109,7 @@
     "servicios": {
       "name": "Servicios",
       "design": "https://compac-ds.github.io/ds-spec/servicios/DESIGN.md",
-      "sentinel": "<!-- FIN DESIGN.md · servicios · v1.0.1 -->",
+      "sentinel": "<!-- FIN DESIGN.md · servicios · v1.0.2 -->",
       "defaultApp": "respaldos",
       "apps": {
         "respaldos": {

@@ -2,7 +2,7 @@
 
 Reglas comunes para construir pantallas, dashboards y prototipos de los aplicativos CONTPAQi con el Design System. Aplican a las cuatro líneas de producto. Lo específico de cada línea (colores, componentes, logos) vive en su DESIGN.md.
 
-Versión de estas instrucciones: 1.0.1 · 2026-10-20
+Versión de estas instrucciones: 1.0.2 · 2026-10-21
 
 ## 1. Fuente de verdad
 
@@ -86,7 +86,7 @@ Si el destino es Figma, la "copia literal" aplica a medidas, estructura y compor
 - Hover y focus visibles en todos los elementos interactivos; focus con contorno de 2 px en `focus-ring`.
 - Otras interacciones solo si la pantalla las necesita (búsqueda que filtra, selección de filas, cierre de avisos, guardar con confirmación).
 
-## 8. Formato de entrega según la herramienta
+<!-- ## 8. Formato de entrega según la herramienta
 
 | Herramienta | Entrega |
 |---|---|
@@ -97,7 +97,7 @@ Si el destino es Figma, la "copia literal" aplica a medidas, estructura y compor
 | Figma (vía MCP) | Construcción nativa en el archivo: componentes, variables y estilos de la librería del DS; sin HTML ni valores literales |
 | Otra | Un solo archivo HTML autocontenido |
 
-HTML autocontenido: CSS en `<style>`, JS mínimo en `<script>`, Manrope desde Google Fonts e íconos Phosphor como SVG inline o desde `@phosphor-icons/web`.
+HTML autocontenido: CSS en `<style>`, JS mínimo en `<script>`, Manrope desde Google Fonts e íconos Phosphor como SVG inline o desde `@phosphor-icons/web`.-->
 
 ## 9. Errores conocidos que debes evitar
 
