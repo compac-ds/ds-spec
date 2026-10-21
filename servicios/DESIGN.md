@@ -1158,4 +1158,4 @@ render();
 - **Don't** introducir tipografías distintas a Manrope.
 - **Don't** usar sombras para separar contenido que ya está separado por superficie o borde.
 
-<!-- FIN DESIGN.md · servicios · v1.0.1 -->
+<!-- FIN DESIGN.md · servicios · v1.0.2 -->

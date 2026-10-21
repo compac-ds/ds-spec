@@ -42,13 +42,6 @@
 
 ---
 
-### Actualización de fecha (Commits 4271767 + 558791b)
-
-- Versión de instrucciones: 2026-10-15 → 2026-10-20
-- Manifest `updated`: 2026-10-15 → 2026-10-20
-
----
-
 ## 🗑️ Deprecado
 
 ### Archivo `instrucciones.md` en raíz (Commit 22b2fea)
@@ -70,5 +63,5 @@
 | Archivos eliminados | 1 (instrucciones.md raíz) |
 | Archivos modificados | 2 (instrucciones/instrucciones.md, index.json) |
 | Cambios de contenido | 2 (Figma nativo + simplificación logos) |
-| Versión | 1.0.1 (contenido actualizado) |
+| Versión | 1.0.2 (contenido actualizado) |
 | Impacto | Medio — Solidifica integración Figma y automatiza cadena de diseños |

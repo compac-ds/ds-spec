@@ -99,7 +99,7 @@ Si el destino es Figma, la "copia literal" aplica a medidas, estructura y compor
 
 HTML autocontenido: CSS en `<style>`, JS mínimo en `<script>`, Manrope desde Google Fonts e íconos Phosphor como SVG inline o desde `@phosphor-icons/web`.-->
 
-## 9. Errores conocidos que debes evitar
+## 8. Errores conocidos que debes evitar
 
 - **Íconos del sidebar:** las versiones Light y Fill de cada ícono comparten la misma celda (`.sb-icon > * { grid-area: 1 / 1; }`). Si se apilan, el ícono se desplaza al activarse.
 - **Selectores del header:** el padding del selector de empresa (4 px 16 px) y el margen derecho del de usuario (8 px) deben prevalecer sobre la regla general de botones del header (`.app-header .ah-company-selector`, `.app-header .ah-user-selector`).
@@ -109,7 +109,7 @@ HTML autocontenido: CSS en `<style>`, JS mínimo en `<script>`, Manrope desde Go
 - **Botones de bloque:** ícono y texto centrados, nunca alineados a un lado.
 - **Contraste:** si un token del DS no alcanza WCAG AA (por ejemplo, texto blanco sobre el naranja de Servicios o badges warning), úsalo tal cual y menciónalo. No lo corrijas por tu cuenta.
 
-## 10. Revisión antes de entregar
+## 9. Revisión antes de entregar
 
 - [ ] Todos los valores existen en el DESIGN.md.
 - [ ] Header y sidebar son las referencias literales, con solo los cambios permitidos.
@@ -120,4 +120,4 @@ HTML autocontenido: CSS en `<style>`, JS mínimo en `<script>`, Manrope desde Go
 - [ ] Botones de solo ícono con `aria-label`; focus visible.
 - [ ] Respuesta con la versión cargada, los supuestos tomados, lo que no se pudo mapear y los warnings de contraste que aplican.
 
-<!-- FIN instrucciones · v1.0.1 -->
+<!-- FIN instrucciones · v1.0.2 -->
